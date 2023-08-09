@@ -16,8 +16,12 @@ function App() {
         <Header />
         <Hero />
       </div>
+      <div className="CR">
+      <div className="blue-gradient" />
       <Companies />
       <Residencies/>
+      </div>
+      
       <Value/>
       <Contact/>
       <GetStarted/>

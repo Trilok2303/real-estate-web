@@ -15,3 +15,14 @@
   filter: blur(100px);
   border-radius: 100px;
 }
+.CR{
+  background:rgb(221, 221, 230);
+}
+.blue-gradient{
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(156, 154, 154, 0.522);
+  filter: blur(100px);
+  border-radius: 100px;
+}
