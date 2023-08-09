@@ -21,14 +21,24 @@ const Value = () => {
   return (
     <section id="value" className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
-        {/* ... your existing code ... */}
+        {/* left side */}
+        <div className="v-left">
+          <div className="image-container">
+            <img src="./value.png" alt="Value" />
+          </div>
+        </div>
 
         {/* right */}
         <div className="flexColStart v-right">
           <span className="orangeText">Our Value</span>
 
-          {/* ... your existing code ... */}
+          <span className="primaryText">Value We Deliver</span>
 
+          <span className="secondaryText">
+            We are dedicated to providing the best services to our clients. Our mission is to make living spaces comfortable and stylish.
+          </span>
+
+          {/* Accordion */}
           <Accordion
             className="accordion"
             allowMultipleExpanded={false}
@@ -44,7 +54,6 @@ const Value = () => {
               >
                 <AccordionItemHeading>
                   <AccordionItemButton className="flexCenter accordionButton">
-                    {/* ... your existing code ... */}
                     <AccordionItemState>
                       {({ expanded }) => {
                         if (expanded) {
@@ -54,6 +63,11 @@ const Value = () => {
                         }
                       }}
                     </AccordionItemState>
+                    <div className="flexCenter icon">{item.icon}</div>
+                    <span className="primaryText">{item.heading}</span>
+                    <div className="flexCenter icon">
+                      <MdOutlineArrowDropDown size={20} />
+                    </div>
                   </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
