@@ -39,10 +39,10 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">+91 9549770154</span>
+                    <span className="secondaryText">95497702345</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Chat now</div>
+                <div className="flexCenter button">Send Email</div>
               </div>
             </div>
 
